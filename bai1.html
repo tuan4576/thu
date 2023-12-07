@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tập code html</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" type = "image/jpg" href = "images/icon.jpg">
+    <link href="../bootrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../bootrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet"/><!--linh css-->
+    <style>
+        .b{
+            /*background-image:url(images/background.jpg) ;*/
+            background-color: rgb(183, 193, 162);
+        }
+    </style>
+
+</head>
+<body class = "b">
+    <h1><a href  = "https://www.youtube.com/watch?v=HGTJBPNC-Gw&t=2013s" target="_blank" </a>hello</a></h1><!-- _self: trang hiện tại -->
+    <img  src = "images/anh2.jpg" title="ảnh gái" width="300px" height="350px" alt = "ảnh gái" >
+    <audio controls autoplay muted loop>
+        <source src = "music/Tấm Lòng Son .mp3" type = "audio/mpeg">
+    </audio>
+    <video controls autoplay muted loop width="300px">
+        <source src = "video/domixi.mp4">
+    </video>
+    <!--chữ-->
+    <pre>
+        <b>chữ đậm</b>
+        <i>chữ in nghiêng</i>
+        <u>chữ gạch chân</u>
+        <del>chữ gạch ngang</del>
+       <big>chữ lớn</big>
+        <small>chữ nhỏ</small>
+        <em>nghiêng</em>
+        <strong>chữ đậm</strong>
+        <p>chữ<sub>xuống</sub>dưới</p>
+        <p>chữ<sup>lên</sup>trên</p>
+    </pre>
+    <ul>
+        <li>li 1</li>
+        <li>li 2</li>
+        <ul>
+           <li>li 1</li>
+           <li>li 2</li>
+           <li>li 3</li>
+        </ul>
+        <li>li 4</li>
+        <ol>
+          <li>li số 1</li>
+          <li>li số 2</li>   
+        </ol>   
+    </ul>
+    <dl>
+        <dt>he</dt>
+        <dt>he</dt>
+    </dl>
+    <table>
+        <tr>
+            <th>bảg1</th>
+            <th>bảg2</th>
+        </tr>
+        <tr>
+            <td>bảng1</td>
+            <td>bảng2</td>
+        </tr>
+    </table>
+    <!-------------------------------------->
+    <form class=" border p-3">
+        <fieldset>
+          <legend><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chú giải ví dụ</font></font></legend>
+          <p>
+            <label for="input"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">đầu vào ví dụ</font></font></label>
+            <input type="text" id="input" placeholder="đầu vào ví dụ">
+          </p>
+          <p>
+            <label for="email"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">email mẫu</font></font></label>
+            <input type="email" id="email" placeholder="test@example.com">
+          </p>
+          <p>
+            <label for="tel"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Điện thoại mẫu</font></font></label>
+            <input type="tel" id="tel">
+          </p>
+          <p>
+            <label for="url"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">url ví dụ</font></font></label>
+            <input type="url" id="url">
+          </p>
+          <p>
+            <label for="number"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">số ví dụ</font></font></label>
+            <input type="number" id="number">
+          </p>
+          <p>
+            <label for="search"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tìm kiếm ví dụ</font></font></label>
+            <input type="search" id="search">
+          </p>
+          <p>
+            <label for="range"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">phạm vi ví dụ</font></font></label>
+            <input type="range" id="range" min="0" max="10">
+          </p>
+          <p>
+            <label for="file"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tệp ví dụ đầu vào</font></font></label>
+            <input type="file" id="file">
+          </p>
+          <p>
+            <label for="select"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chọn ví dụ</font></font></label>
+            <select id="select">
+              <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chọn...</font></font></option>
+              <optgroup label="Option group 1">
+                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lựa chọn 1</font></font></option>
+                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lựa chọn 2</font></font></option>
+                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tùy chọn 3</font></font></option>
+              </optgroup>
+              <optgroup label="Option group 2">
+                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tùy chọn 4</font></font></option>
+                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tùy chọn 5</font></font></option>
+                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tùy chọn 6</font></font></option>
+              </optgroup>
+            </select>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox" value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+              Kiểm tra hộp kiểm này
+            </font></font></label>
+          </p>
+          <p>
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+              Lựa chọn một là cái này và cái kia
+            </font></font></label>
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+              Tùy chọn hai là một cái gì đó khác cũng rất dài để chứng minh sự bao bọc của các điều khiển biểu mẫu ưa thích này.
+            </font></font></label>
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+              Tùy chọn ba bị vô hiệu hóa
+            </font></font></label>
+          </p>
+          <p>
+            <label for="textarea"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vùng văn bản ví dụ</font></font></label>
+            <textarea id="textarea" rows="3"></textarea>
+          </p>
+          <p>
+            <label for="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ngày ví dụ</font></font></label>
+            <input type="date" id="date">
+          </p>
+          <p>
+            <label for="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">thời gian ví dụ</font></font></label>
+            <input type="time" id="time">
+          </p>
+          <p>
+            <label for="password"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mật khẩu ví dụ</font></font></label>
+            <input type="password" id="password">
+          </p>
+          <p>
+            <label for="datetime-local"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ví dụ datetime-local</font></font></label>
+            <input type="datetime-local" id="datetime-local">
+          </p>
+          <p>
+            <label for="week"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tuần ví dụ</font></font></label>
+            <input type="week" id="week">
+          </p>
+          <p>
+            <label for="month"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tháng ví dụ</font></font></label>
+            <input type="month" id="month">
+          </p>
+          <p>
+            <label for="color"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Màu ví dụ</font></font></label>
+            <input type="color" id="color">
+          </p>
+          <p>
+            <label for="output"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">đầu ra ví dụ</font></font></label>
+            <output name="result" id="output"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100</font></font></output>
+          </p>
+          <p>
+            <button type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gửi nút</font></font></button>
+            <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit" value="Nút gửi đầu vào"></font></font>
+            <input type="reset" value="Input reset button">
+            <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="button" value="nút đầu vào"></font></font>
+          </p>
+          <p>
+            <button type="submit" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gửi nút</font></font></button>
+            <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit" value="Nút gửi đầu vào" disabled=""></font></font>
+            <input type="reset" value="Input reset button" disabled="">
+            <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="button" value="nút đầu vào" disabled=""></font></font>
+          </p>
+        </fieldset>
+      </form>
+      <h2>riêng</h2>
+      <input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+</body>
+</html>
